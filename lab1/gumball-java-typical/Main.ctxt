@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Main
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ perform_action_switch()
+comment3.params=amount
+comment3.target=void\ perform_gumballMachine_one(int)
+comment4.params=amount
+comment4.target=void\ perform_gumballMachine_two(int)
+comment5.params=amount
+comment5.target=void\ perform_gumballMachine_three(int)
+numComments=6
