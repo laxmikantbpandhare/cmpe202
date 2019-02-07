@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GumballMachine3
+comment0.text=\n\ Write\ a\ description\ of\ class\ GumballMachine3\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=void\ GumballMachine3()
+comment1.text=\n\ Below\ function\ will\ perform\ loop\ until\ it\ will\ get\ amount\ 50.\n\ It\ will\ be\ performed\ untill\ it\ will\ complete\ till\ Cent\ 50.\n
+comment2.params=
+comment2.target=int\ accept_money()
+comment2.text=\n\ Below\ function\ will\ accept\ value\ from\ user.\n
+numComments=3

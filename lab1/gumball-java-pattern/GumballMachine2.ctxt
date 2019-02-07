@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=GumballMachine2
+comment1.params=
+comment1.target=void\ GumballMachinetwo()
+comment1.text=\n\ Below\ function\ will\ perform\ loop\ for\ twice\ only\n\ \ If\ user\ fail\ to\ give\ money\ for\ second\ attemp\ then\ it\ will\ not\ process\ with\ GumBall\ Machine\ Two.\n
+comment2.params=
+comment2.target=int\ accept_money()
+comment2.text=\n\ Below\ function\ will\ accept\ the\ value\ from\ user.\n
+numComments=3
