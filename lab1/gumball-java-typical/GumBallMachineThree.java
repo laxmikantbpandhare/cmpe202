@@ -36,10 +36,15 @@ public class GumBallMachineThree
                 System.out.println("Enter the Amount = ");
                 Scanner sc=new Scanner(System.in);
                 int sum1=sc.nextInt();
-                sum1 = sum1 + sum;
-                GumBallMachineThree(sum1);
-                //main.perform_action_switch();
-                
+                if(sum1 == 5 || sum1 == 10 || sum1 == 25)
+                {
+                    sum1 = sum1 + sum;
+                    GumBallMachineThree(sum1);
+                }
+                else
+                {
+                       System.out.println("You have entered an invalid amount ! Please insert Nickel, Dime or Quarter only !"); 
+                }
         }
         else{
              
