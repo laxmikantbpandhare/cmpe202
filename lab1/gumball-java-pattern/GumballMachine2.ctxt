@@ -6,4 +6,6 @@ comment1.text=\n\ Below\ function\ will\ perform\ loop\ for\ twice\ only\n\ \ If
 comment2.params=
 comment2.target=int\ accept_money()
 comment2.text=\n\ Below\ function\ will\ accept\ the\ value\ from\ user.\n
-numComments=3
+comment3.params=money
+comment3.target=void\ perform_operation(int)
+numComments=4

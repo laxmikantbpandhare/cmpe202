@@ -7,8 +7,8 @@ import java.util.Scanner;
  */
 public class GumballMachine3
 {
-
-    int sum = 0;
+      GumballMachine gumballMachine = new GumballMachine(5);
+      int sum = 0;
     
     /**
      * Below function will perform loop until it will get amount 50.
@@ -16,12 +16,40 @@ public class GumballMachine3
      **/
     public void GumballMachine3()
     {
- 
-        GumballMachine gumballMachine = new GumballMachine(5);
+
         int money=accept_money();
-        sum = sum + money;
-        money = sum;
         
+        if(money == 5 || money == 10 || money == 25)
+        {
+            sum = sum + money;
+            perform_operation(sum);
+        }
+        else
+        {
+           System.out.println("Please Enter Nickel, Dime, Quarter Only !!");
+           GumballMachine3();
+        }
+
+        
+
+    }
+    
+    
+        
+    /**
+     * Below function will accept value from user.
+    **/
+     static int accept_money(){
+        
+        int money_inserted;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Money for GumBallMachine Three = ");
+        money_inserted=sc.nextInt();
+        return money_inserted;
+        
+    }
+
+    public void perform_operation(int money){
         if (money < 50)
         {
             
@@ -47,20 +75,4 @@ public class GumballMachine3
             
         }
     }
-    
-    
-        
-    /**
-     * Below function will accept value from user.
-    **/
-     static int accept_money(){
-        
-        int money_inserted;
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter Money for GumBallMachine Three = ");
-        money_inserted=sc.nextInt();
-        return money_inserted;
-        
-    }
-
 }

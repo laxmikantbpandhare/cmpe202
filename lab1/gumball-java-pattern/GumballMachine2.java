@@ -10,33 +10,31 @@ import java.util.Scanner;
 public class GumballMachine2
 {
     // 
-
+    GumballMachine gumballMachine = new GumballMachine(5);
+    
     /**
      * Below function will perform loop for twice only
      *  If user fail to give money for second attemp then it will not process with GumBall Machine Two.
      **/
     public void GumballMachinetwo()
     {   
-        
-        GumballMachine gumballMachine = new GumballMachine(5);
+
         System.out.println("Now, We will perform Same method for GumBallMachine Two");
         int money=accept_money();
-        
-        if (money < 50)
+        int sum = 0;
+        if(money != 25)
         {
-            
-            System.out.println("You have enetered less Amount ! Please enter remaining Amount. You need to enter total of 50 Cents !!");
-            money=accept_money();
-            
+            System.out.println("Please Enter Quarter Only !!");
+            GumballMachinetwo();
         }
         else
         {
-            
-            System.out.println(gumballMachine);
-            gumballMachine.insertQuarter();
-            gumballMachine.turnCrank();
-            
+            sum = money;
+            sum = sum + money;
+            perform_operation(sum);
         }
+        
+
     }
     
      
@@ -51,7 +49,20 @@ public class GumballMachine2
         System.out.println("Enter Money for GumBallMachine Second = ");
         money_inserted=sc.nextInt();
         return money_inserted;
-        
+    }
+    
+    public void perform_operation(int money){
+        if (money < 50)
+        {
+            
+            System.out.println("You have enetered less Amount ! Please enter remaining Amount. You need to enter total of 50 Cents !!");
+            GumballMachinetwo();
+        }
+        else
+        {
+            gumballMachine.insertQuarter();
+            gumballMachine.turnCrank();
+        }
     }
     
 }
