@@ -11,7 +11,7 @@ public class GumballMachine2
 {
     // 
     GumballMachine gumballMachine = new GumballMachine(5);
-    
+    int sum = 0;
     /**
      * Below function will perform loop for twice only
      *  If user fail to give money for second attemp then it will not process with GumBall Machine Two.
@@ -21,7 +21,6 @@ public class GumballMachine2
 
         System.out.println("Now, We will perform Same method for GumBallMachine Two");
         int money=accept_money();
-        int sum = 0;
         if(money != 25)
         {
             System.out.println("Please Enter Quarter Only !!");
@@ -29,7 +28,6 @@ public class GumballMachine2
         }
         else
         {
-            sum = money;
             sum = sum + money;
             perform_operation(sum);
         }
