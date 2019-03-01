@@ -7,3 +7,5 @@ Lab 1 -> I have added Class Diagram and explanation of the development part in t
 Lab2 -> I have added .asta as well as .PNG file of the class and sequence diagram. .asta files contains class and sequence both the diagrams.
 
 Lab 3 -> I have added .asta and .PNG files in the output folder of lab3.
+
+Lab 4 -> I have added CRC Cards, Communication diagram and the expplanation of Chain Of Responsibility Design Pattern.  
