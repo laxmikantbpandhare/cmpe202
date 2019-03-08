@@ -3,5 +3,5 @@
 3) So, behind the counter we found SIX people including the one who took order from us. And, in kitchen which are performing the action are FIVE in count.
 4) Everyone has its own responsibility, starting with the one who took the order from customer. Once order got placed, the first guy start with the preperation of Bun. Parallely, one guy started with Patty and fries preperation. Till the preperation of Patty, the burger got prapared. 
 5) After that, the next guy adds cheese and other materials order by the customer.
-6) Further, the enxt guy will add mear or chicken pieces on it. The fifth guy in a kitchen wrap the burger and put a number on it. 
+6) Further, the next guy will add meat or chicken pieces on it(Toppings). The fifth guy in a kitchen wrap the burger and put a number on it. 
 7) At last, it got served to the Customer. The responsibilities of each and every guy is inter-related. After completion of first action the next action got occured.
