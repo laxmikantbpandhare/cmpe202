@@ -29,3 +29,5 @@ Now Printing Packing Receipt
 Tax:                    0.7541999999999999
 
 Explanation of the Pattern utilised during this problem-->>
+
+Strategy Pattern --> We are printing CUstomer Receipt as well as a Packing receipt. We are printing this in two different ways which is nothing but Strategy Design Pattern. In this process, I have created different objects which describes different types of strategy.
