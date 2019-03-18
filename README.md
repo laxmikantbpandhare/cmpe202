@@ -11,3 +11,5 @@ Lab 3 -> I have added .asta and .PNG files in the output folder of lab3.
 Lab 4 -> I have added CRC Cards, Communication diagram and the expplanation of Chain Of Responsibility Design Pattern. 
 
 Lab 5 -> Added .PNG and .ASTA file for Lab5. Also, added process for the problem.
+
+Lab6 -> Added code changes for Five Guys Burger Problem.
