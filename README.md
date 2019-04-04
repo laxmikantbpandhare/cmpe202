@@ -10,8 +10,10 @@ Lab 3 -> I have added .asta and .PNG files in the output folder of lab3.
 
 Lab 4 -> I have added CRC Cards, Communication diagram and the expplanation of Chain Of Responsibility Design Pattern. 
 
-Lab 5 -> Added .PNG and .ASTA file for Lab5. Also, added process for the problem.
+Lab 5 -> Added .PNG and .ASTA file for Lab5. Also, added process for the problem.(Strategy Pattern)
 
-Lab 6 -> Added code changes for Five Guys Burger Problem.
+Lab 6 -> Added code changes for Five Guys Burger Problem. (Decorator Pattern)
 
 Lab 7 -> Added .asta and .png files of a class diagram for Custom Burger in output folder. Also added source code in folder.
+
+Lab8 -> Added code changes for input mask. Implements Decorator Pattern for adding Spaces and Slash.
