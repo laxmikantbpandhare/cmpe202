@@ -20,7 +20,19 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 	public void key(String ch, int cnt) {
 		if ( cnt >= 21 ) {
 			if ( cnt >= 21 && cnt <= 23 )
-				cvc += ch ;
+			{
+				
+				if(ch.equals("X") && cvc.length()>0){
+					cvc = removeLastChar(cvc);
+					System.out.println("Coming here"+ch);
+				}
+				else
+					if(ch.equals("X") && cvc.length()==0){
+						;
+					}
+				else
+					cvc += ch ;
+			}
 			else if ( nextHandler != null )
 				nextHandler.key(ch, cnt) ;
 		}
@@ -30,5 +42,15 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 	public void addSubComponent( IDisplayComponent c ) {
 		return ; // do nothing
 	}
+	
+	
+    /**
+     * Key Event Update
+     * @param string   Count of Keys So Far
+     * @return Count of Keys So Far
+     */   
+    public String removeLastChar(String string) {
+        return string.substring(0,string.length()-1);
+    }
 
 }
