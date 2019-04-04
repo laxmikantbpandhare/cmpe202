@@ -6,22 +6,26 @@ public class CreditCardNum implements IDisplayComponent, IKeyEventHandler
 	IdecorateValue wrapped;
 	private IKeyEventHandler nextHandler ;
 	private String number = "" ;
+	private String number1 = "" ;
 //	private int i=0;
 	
-	   public void wrapDecorator( IdecorateValue w ) 
-	   {
-	       this.wrapped = w ;
-	   }
+   public void wrapDecorator( IdecorateValue w ) 
+   {
+	   this.wrapped = w ;
+   }
 
     public void setNext( IKeyEventHandler next) {
     	this.nextHandler = next ;
     }	
 
 	public String display() {
+		
+		number1 = wrapped.addValue(number);
+		
 		if ( number.equals("") )
 			return "[]" + "  " ;
 		else
-			return "[" + number + "]" + "  " ;
+			return "[" + number1 + "]" + "  " ;
 	}
 	
 	

@@ -5,6 +5,7 @@ public class CreditCardExp implements IDisplayComponent, IKeyEventHandler
 
 	private IKeyEventHandler nextHandler ;
 	private String date = "" ;
+	private String number1 = "" ;
 	//private int i = 0;
 	IdecorateValue wrapped;
 	
@@ -19,10 +20,13 @@ public class CreditCardExp implements IDisplayComponent, IKeyEventHandler
     }	
 
 	public String display() {
+		
+		number1 = wrapped.addValue(date);
+		
 		if ( date.equals("") )
 			return "[]" + "  " ;
 		else
-			return "[" + date + "]" + "  " ;
+			return "[" + number1 + "]" + "  " ;
 	}	
 
 	public void key(String ch, int cnt) {

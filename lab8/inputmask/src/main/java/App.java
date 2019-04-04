@@ -19,6 +19,11 @@ public class App {
         num = new CreditCardNum();
         exp = new CreditCardExp();
         cvc = new CreditCardCVC();
+        addspace = new addSpace();
+        addslash = new addSlash();
+        
+        num.wrapDecorator(addspace);
+        exp.wrapDecorator(addslash);
 
         screen.addSubComponent(num);
         screen.addSubComponent(exp);
@@ -27,8 +32,7 @@ public class App {
         /* referred custom burger problem where wrapDecorator will be called while wrapping
          * all the objects */
         
-        num.wrapDecorator(addspace);
-        exp.wrapDecorator(addslash);
+
         
         count = 0;
 
@@ -48,7 +52,7 @@ public class App {
 
     public void key(String ch) {
     	
-        if(ch.equals("X") && count > 0){
+        if(ch.equals("X") && (count > 0 && count<=23)){
         	count--;
         	screen.key(ch, count);
         }
