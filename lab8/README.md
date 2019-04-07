@@ -2,7 +2,7 @@
 
 ## Decorator Pattern
 
-I have utilized Decorator Design Pattern to solve this problem. The reason behind it is that at run time we have to add additional responsibility to the object (additional responsibility - it is nothing but addition of ####Spaces#### and Slash with Card Number and Card Expiry Date). The decorator pattern is most suitable design pattern for implementation of such requirement.
+I have utilized Decorator Design Pattern to solve this problem. The reason behind it is that at run time we have to add additional responsibility to the object (additional responsibility - it is nothing but addition of Spaces and Slash with Card Number and Card Expiry Date). The decorator pattern is most suitable design pattern for implementation of such requirement.
 
  
 
