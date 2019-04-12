@@ -17,3 +17,5 @@ Lab 6 -> Added code changes for Five Guys Burger Problem. (Decorator Pattern)
 Lab 7 -> Added .asta and .png files of a class diagram for Custom Burger in output folder. Also added source code in folder.
 
 Lab8 -> Added code changes for input mask. Implements Decorator Pattern for adding Spaces and Slash.
+
+Lab9 -> Calculated price of each burger and printed it. Applied Strategy pattern with and without Lambda function.
