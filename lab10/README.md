@@ -1,6 +1,8 @@
+# Lab10 Summary:
 
+In Lab1, I have created different classes and also added different logic for the implementation of two different Gumball Machines. If there is new changes then there will be lot of changes in classes.
 
-
+But, in featureIDE aspect, the configuration of GumBallMachine is in file and according to that it is performing and executing. Here, configuration can be changes easily. In APO, the requirements are easily managable and future requirements can be easily applied. Use of Aspect reduced lot of code. 
 
 
 ## Lab 10 ScreenPrints and Configuration.
