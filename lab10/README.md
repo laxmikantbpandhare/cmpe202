@@ -3,6 +3,10 @@
 
 
 
+## Lab 10 ScreenPrints and Configuration.
+
+#### i. Model: Crank , Cost: Quarter (25) 
+
 <img width="880" alt="Screen Shot 2019-05-01 at 12 56 18 PM" src="https://user-images.githubusercontent.com/47066536/57039187-cf9d9b80-6c10-11e9-9b9d-e8d573c714dc.png">
 
 <img width="891" alt="Screen Shot 2019-05-01 at 12 56 27 PM" src="https://user-images.githubusercontent.com/47066536/57039209-e217d500-6c10-11e9-95db-759e3fa28fca.png">
